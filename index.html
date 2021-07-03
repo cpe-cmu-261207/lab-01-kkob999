@@ -1,24 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Resume Website</title>
+  <!--Add font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+
+<body class="bg-blue-50">
   <!--nav bar-->
-  <div>
-    <h1>My Resume</h1>
-    
-    
+  <div class="grid grid-cols-5">
+
+    <div class="bg-nav col-span-1">
+      <nav>
+        <!--My Resume-->
+        <h1 class="kb-font py-4 px-4 border-b m-2">KoobResume</h1>
+        <!--img-->
+        <div class="flex justify-center">
+          <img class="mt-8 w-32 rounded-full" src="img/Me01.jpg" alt="me01">
+        </div>
+        <!--H E C-->
+        <div class="p-4 flex justify-center">
+          <ul class="uppercase text-btn mt-8">
+            <li class="mb-12">
+              <a class="btn1 btn-1" href="index.html">home page</a>
+            </li>
+            <li class="mb-12">
+              <a class="btn3 btn-1" href="experience.html">Experience</a>
+            </li>
+            <li class="mb-8">
+              <a class="btn2 btn-1" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!--Content-->
+    <main class="bg-white col-span-4">
+      <div class="px-12 py-6">
+        <h2 class="py-4 header-font border-b-2 border-black">home page</h2>
+        <div class="mt-8 grid grid-cols-3 gap-10">
+          <!--1-->
+          <div class="col-span-1"></div>
+          <!--img me02-->
+          <div class="card">
+            <div class="">
+              <img class="w-53 round-img" src="img/Me02.jpg" alt="me02">
+              <div class="mx-6 my-4">
+                <p class="text-font1">Hello, My name is Chommanee Rujijanakul. I study at Chiangmai University in Computer Engineering
+                  major.Hope you guys enjoy!!!</p>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-span-1"></div>
+        </div>
+      </div>
+
+      <div class="px-16">
+        <h3 class="sec-header-font">My Skill</h3>
+      </div>
+      
+      <div class="px-56 py-6">
+        <!--Card go here-->
+
+        <div class="grid grid-cols-2 gap-x-48 gap-y-12">
+          <!--Skill card-->
+          <div class="card">
+            <img class="w-full round-img " style="width: 290px; height: 290px" src="img/piano.png" alt="skill_piano">
+            <div>
+              <p class="mx-6 my-2">Piano</p>
+              <p class="mx-6 mb-4 text-font2">In my free time, I alway love to play piano. I play classic music, Sometimes anime song</p>
+            </div>
+          </div>
+
+          <!--Skill card-->
+          <div class="card">
+            <img class="w-full round-img" style="width: 290px; height: 290px" src="img/pingpong.jpg"
+              alt="pingpong_piano">
+            <div>
+              <p class="mx-6 my-2">PingPong</p>
+              <p class="mx-6 mb-4 text-font2">My favorite sport is pingpong. Yeah, kinda nerd</p>
+            </div>
+          </div>
+
+
+          <!--Skill card-->
+          <div class="card">
+            <img class="w-full round-img" style="width: 290px; height: 290px" src="img/sleep.jpg" alt="sleep_piano">
+            <div>
+              <p class="mx-6 my-2">Sleep all day</p>
+              <p class="mx-6 mb-4 text-font2">I'm in relationship with bed. I can sleep all day althouth I drank coffee in that day. Max hour is 12</p>
+            </div>
+          </div>
+
+          <!--Skill card-->
+          <div class="card">
+            <img class="w-full round-img" style="width: 290px; height: 290px" src="img/plant.jpg" alt="skill_piano">
+            <div>
+              <p class="mx-6 my-2">Death finger</p>
+              <p class="mx-6 mb-4 text-font2">Every plant that i take care alway died and I don't know Why?</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </main>
+
+
+
   </div>
-  <div>
-    <ul>
-      <li><h2>home</h2></li>
-      <li><h3>about</h3></li>
-    </ul>
-  </div>
+
+
+
 </body>
+
 </html>
