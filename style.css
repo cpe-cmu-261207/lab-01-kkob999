@@ -1,9 +1,71 @@
 .card{
+    background: hsl(339, 85%, 62%);
+    border: 2px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s ease;
+    height: 330px;
+}
+
+.card-me{
+    background: #8a8ac8;
+    border: 2px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s ease;
+    height: 270px;
+}
+
+.card3{
     background: #F9F9F9;
     border: 2px;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s ease;
+}
+
+
+.card2{
+    background: #e761bd;
+    border: 2px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.5s;
+}
+
+.card .cdetail {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.card:hover .cdetail{
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover{
+    height: 410px;
+    visibility: visible;
+}
+
+.card3:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card-me .cdetail2{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card-me:hover .cdetail2{
+    visibility: visible;
+    opacity: 1;
+}
+
+.card-me:hover{
+    height: 370px;
 }
 
 .round-img{
@@ -54,11 +116,41 @@
     text-indent: 30px;
 }
 
+.text-me1{
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.text-me2{
+    font-size: 18px;
+    font-weight: 300px;
+    font-family: 'Poppins', sans-serif;
+    color: #bebfc2;
+}
+
+.text-me3{
+    font-size: 16px;
+    font-weight: 200px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-indent: 30px;
+}
+
 .text-font2{
     font-size: 14px;
     font-weight: 100px;
     font-family: 'Poppins', sans-serif;
     text-indent: 30px;
+    color: white;
+}
+
+.text-font3{
+    font-size: 18px;
+    font-weight: 300px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 .text-btn{
@@ -78,6 +170,7 @@
     font-size: 16px;
     font-weight: 100px;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 span{
@@ -143,7 +236,7 @@ span{
 }
 
 .bg-pf{
-    background-image: linear-gradient(90deg, hsla(43, 84%, 85%, 1) 0%, hsla(325, 71%, 70%, 1) 50%, hsla(236, 67%, 55%, 1) 100%);
+    background-image: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
 }
 
 

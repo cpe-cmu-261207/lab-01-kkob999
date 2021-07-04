@@ -15,10 +15,9 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-blue-50">
+<body class="bg-white">
   <!--nav bar-->
   <div class="grid grid-cols-5">
-
     <div class="bg-nav col-span-1">
       <nav>
         <!--My Resume-->
@@ -45,18 +44,29 @@
     </div>
 
     <!--Content-->
-    <main class="bg-white col-span-4">
+    <main class="bg-white col-span-4 mb-10">
       <div class="px-12 py-6">
-        <h2 class="py-4 header-font border-b-2 border-black">home page</h2>
+        <div class="flex border-b-2 border-black">
+          <img src="img/home.png" style="width: 60px; height: 60px;" class="mt-6 mr-2" alt="">
+          <h2 class="py-4 header-font ">home page</h2>
+        </div>
+
         <div class="mt-8 grid grid-cols-3 gap-10">
           <!--1-->
           <div class="col-span-1"></div>
           <!--img me02-->
-          <div class="card">
+          <div class="card-me">
             <div class="">
-              <img class="w-53 round-img" src="img/Me02.jpg" alt="me02">
+              <img class="w-53 rounded-full my-4 mx-24" style="height: 150px; width: 150px;" src="img/Me02.jpg"
+                alt="me02">
               <div class="mx-6 my-4">
-                <p class="text-font1">Hello, My name is Chommanee Rujijanakul. I study at Chiangmai University in Computer Engineering
+                <div class="grid justify-items-center mb-2">
+                  <p class="text-me1">Chommanee Rujijanakul</p>
+                  <p class="text-me2">Student | Cat person</p>
+                </div>
+                <p class="cdetail2 text-me3">Hello, My name is Chommanee Rujijanakul. I study at Chiangmai University
+                  in
+                  Computer Engineering
                   major.Hope you guys enjoy!!!</p>
               </div>
             </div>
@@ -67,53 +77,61 @@
       </div>
 
       <div class="px-16">
-        <h3 class="sec-header-font">My Skill</h3>
+        <h3 class="sec-header-font border-b-2 border-black">My Skill</h3>
       </div>
-      
+
       <div class="px-56 py-6">
         <!--Card go here-->
 
-        <div class="grid grid-cols-2 gap-x-48 gap-y-12">
+        <div class="grid grid-cols-2 gap-x-48 gap-y-12 mt-10">
           <!--Skill card-->
           <div class="card">
-            <img class="w-full round-img " style="width: 290px; height: 290px" src="img/piano.png" alt="skill_piano">
+
             <div>
-              <p class="mx-6 my-2">Piano</p>
-              <p class="mx-6 mb-4 text-font2">In my free time, I alway love to play piano. I play classic music, Sometimes anime song</p>
+              <img class="w-full round-img" style="width: 290px; height: 290px" src="./img/piano.png" alt="skill_piano">
+              <p class="my-2 grid justify-items-center text-font3">Piano</p>
+              <p class="mx-6 mb-4 text-font2 cdetail">In my free time, I alway love to play piano. I play classic
+                music, Sometimes anime song</p>
             </div>
+
           </div>
 
           <!--Skill card-->
           <div class="card">
-            <img class="w-full round-img" style="width: 290px; height: 290px" src="img/pingpong.jpg"
+            <img class="w-full round-img" style="width: 290px; height: 290px" src="./img/pingpong.jpg"
               alt="pingpong_piano">
             <div>
-              <p class="mx-6 my-2">PingPong</p>
-              <p class="mx-6 mb-4 text-font2">My favorite sport is pingpong. Yeah, kinda nerd</p>
+              <p class="my-2 grid justify-items-center text-font3">PingPong</p>
+              <p class="mx-6 mb-4 text-font2 cdetail">My favorite sport is pingpong. Yeah, kinda nerd</p>
             </div>
           </div>
 
 
           <!--Skill card-->
           <div class="card">
-            <img class="w-full round-img" style="width: 290px; height: 290px" src="img/sleep.jpg" alt="sleep_piano">
+            <img class="w-full round-img" style="width: 290px; height: 290px" src="./img/sleep.jpg" alt="sleep_piano">
             <div>
-              <p class="mx-6 my-2">Sleep all day</p>
-              <p class="mx-6 mb-4 text-font2">I'm in relationship with bed. I can sleep all day althouth I drank coffee in that day. Max hour is 12</p>
+              <p class="my-2 grid justify-items-center text-font3">Sleep all day</p>
+              <p class="mx-6 mb-4 text-font2 cdetail">I'm in relationship with bed. I can sleep all day althouth I drank
+                coffee
+                in that day. Max hour is 12</p>
             </div>
           </div>
 
           <!--Skill card-->
           <div class="card">
-            <img class="w-full round-img" style="width: 290px; height: 290px" src="img/plant.jpg" alt="skill_piano">
+            <img class="w-full round-img" style="width: 290px; height: 290px" src="./img/plant.jpg" alt="skill_piano">
             <div>
-              <p class="mx-6 my-2">Death finger</p>
-              <p class="mx-6 mb-4 text-font2">Every plant that i take care alway died and I don't know Why?</p>
+              <p class="my-2 grid justify-items-center text-font3">Death finger</p>
+              <p class="mx-6 mb-4 text-font2 cdetail">Every plant that i take care alway died and I don't know Why?</p>
             </div>
           </div>
 
         </div>
       </div>
+
+      <div class="border-b-2 border-black mt-8"></div>
+      <p class="text-font1 grid justify-items-center mt-6">Copyright © 2021 KoobResume</p>
 
 
 
